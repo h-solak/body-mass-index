@@ -16,11 +16,6 @@ h1{
     font-size: 2.4rem;
 }
 
-#name{
-    margin-top: -2.5rem;
-    font-size: 1rem;
-}
-
 #link{
     color: white;
     text-decoration: none;
@@ -130,12 +125,11 @@ input::placeholder{
 
 /*bottom*/
 
-#stats{
-    margin: 0;
+#footer{
     position: absolute;
-    top: 96%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 97%;
+    transform: translate(-50%, -50%);
 }
 
 /*for the smaller screens*/
@@ -144,7 +138,7 @@ input::placeholder{
         top: 48%;
     }
     h1{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     h2{
@@ -183,6 +177,10 @@ input::placeholder{
     
     #result2{
         font-size: 1.4rem;
+    }
+
+    #footer{
+        font-size: 15px;
     }
 }
 
