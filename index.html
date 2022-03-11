@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,47 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    
     <script src="https://kit.fontawesome.com/260dc2fe64.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>BMI Calculator</title>
 </head>
+
 <body>
-    <div class="top-container">
-        <h1>Body Mass Index Calculator</h1><br>
-    </div>
-    
-    
-    <div class="container">   
+    <h1>Body Mass Index Calculator</h1><br>
+
+
+    <div class="container">
         <div class="inputs">
             <div>
                 <h2>Height:</h2>
-                <input type= "text" class="input-area" placeholder="cm" id="height">
+                <input type="text" class="input-area" placeholder="cm" id="height">
             </div>
             <br>
             <div>
                 <h2>Weight:</h2>
-                <input type= "text" class="input-area" placeholder="kg" id="weight">
+                <input type="text" class="input-area" placeholder="kg" id="weight">
             </div>
         </div>
-        <button id="calc-btn" onclick="calc()">Calculate</button> 
-        
+        <button id="calc-btn" onclick="calc()">Calculate</button>
+
     </div>
-    
+
     <div class="results">
         <div id="result1"></div>
         <div id="result2"></div>
     </div>
 
     <!----Footer---->
-    <div id="footer">
-        <a href="https://github.com/h-solak" id="link" target="blank">
-            by Hasan Solak
-            <i class="fab fa-github"></i>
+    <div class="footer-wrapper">
+        <a class="footer" href="https://github.com/h-solak" target="blank">
+            <i class="fa-brands fa-github"></i>
+            <span class="footer-text">Hasan Solak</span>
         </a>
     </div>
-    
+
+
     <script src="index.js"></script>
-    
+
 </body>
+
 </html>
